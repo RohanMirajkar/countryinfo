@@ -1,2 +1,1 @@
-# countrydata1
 # countryinfo
