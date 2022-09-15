@@ -8,18 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cb50be477f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>CountryInfo</title>
 </head>
 
 <body>
-    <div class="header">
-    </div>
-    <div class="container">
-        <div class="row" id="info">
-            
+    <div class="head">
+        <div class="header-head">
+            <h2>World Countries Data</h2>
+            <h6>Currently , we have 250 Countries</h6>
+        </div>
+        <div class="header-filter">
+            <input type="search" placeholder="Search Countries by name , city and Languages">
+            <div class="header-filter-buttons">
+                <button>Name <i class="fas fa-long-arrow-alt-down"></i></button>
+                <button>Capital</button>
+                <button>Population</button>
+                <i class="fa-solid fa-chart-column"></i>
+            </div>
         </div>
     </div>
+    <div>
+        <div class="container">
+            <div class="row" id="info">
+                
+            </div>
+        </div>
+    </div>
+   
 
     <script src="assets/js/country.js"></script>
     <script src="assets/js/app.js"></script>

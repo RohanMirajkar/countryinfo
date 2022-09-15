@@ -1,5 +1,6 @@
 let result = '';
 const infodiv = document.getElementById('info');
+
 countries.forEach(country => {
     result += `
     <div class="col">
@@ -8,11 +9,11 @@ countries.forEach(country => {
             <img src="${country.flag}" alt="">
         </div>
         <div class="countryName">
-            <h3>${country.name}</h3>
+            <h3>${country.name.toUpperCase()}</h3>
         </div>
         <div class="countryinfo">
             <p><strong>Capital</strong> : ${country.capital}</p>
-            <p><strong>lang</strong> : ${country.languages}</p>
+            <p><strong>Languages</strong> : ${country.languages}</p>
             <p><strong>population</strong> : ${country.population}</p>
         </div>
     </div>
